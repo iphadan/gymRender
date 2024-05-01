@@ -26,7 +26,7 @@
               <tr>
                 
                 <th scope="col">Full Name</th>
-                <th scope="col">Plane Type</th>
+                <th scope="col">Plan Type</th>
                 <th scope="col">Date today</th>
                 <th scope="col">Remind Date</th>
                 <th scope="col">Expired Date</th>
@@ -35,14 +35,16 @@
               </tr>
             </thead>
             <tbody>
+              {% for attendance in todayAttendance%}
               <tr>
-                <td>Brandon Jacob</td>
-                <td>3 Month</td>
-                <td>2016-05-25</td>
+                <td>{{attendance.gymMember.firstName}} {{attendance.gymMember.lastName}}</td>
+                <td>{{attendance.gymMember.plan}}</td>
+                <td>{{attendance.workoutDate}}</td>
                 <td>28</td>
-                <td>2016-05-25</td>
+                <td>{{attendance.gymMember.joinedAt}}</td>
                 <td><button class="btn btn-success" disabled><i class="bi bi-check-circle"></i></button></td>
               </tr>
+              {% endfor %}
             </tbody>
           </table>
       

@@ -1,5 +1,6 @@
 {% extends 'base.html'%}
 {% load static %}
+{% load qr_code %}
 {% block content %}
 
 {% include 'nav.html' %}
@@ -22,11 +23,12 @@
               <h5 class="card-title">Generate ID Card</h5>
 
               <!-- General Form Elements -->
-              <form>
+              <form action="{% url 'generateIdCard' %}" method="POST">
+                {% csrf_token %}
                 <div class="row mb-3">
                   
                   <div class="col-sm-12">
-                    <input type="text" class="form-control" placeholder="Enter ID">
+                    <input type="text" class="form-control" placeholder="Enter ID" name="id">
                   </div>
                 </div>
               
@@ -42,6 +44,15 @@
           </div>
 
           </div>
+          {% for message in messages %}
+      
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  {{message}}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            
+          
+              {% endfor %}
     
     <div class="row">
       <div class="col-6">
@@ -61,8 +72,7 @@
           </div>
         </div>
         <div class="row">
-          <img src="{% static 'assets/img/th.jpg' %}" alt="Profile" width="180px" height="150px">
-        </div>
+          <img src="data:image/png;base64,{{ qr_code_image }}" alt="QR code Will appear here" style="width: 100px;">        </div>
 
       </div>
     </div>

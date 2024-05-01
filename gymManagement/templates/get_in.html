@@ -8,28 +8,39 @@
 
   <main>
     <div class="container">
-
+     
       <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
         <div class="container">
+         
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-6 d-flex flex-column align-items-center justify-content-center">
+              {% for message in messages %}
+      
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  {{message}}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            
+          
+              {% endfor %}
               <div class="d-flex justify-content-center py-4">
-                <a href="index.html" class="d-flex align-items-center w-auto">
-                  <img src="assets/img/logo.png" alt="">
+                <a href="{% url 'home' %}" class="d-flex align-items-center w-auto">
+                  <img src="{% static 'assets/img/logo.png' %}" alt="">
                 </a>
               </div><!-- End Logo -->
               <div class="card mb-3">
                 <div class="card-body">
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3 needs-validation" method="post" action="{% url 'getIn' %}" novalidate>
+                    {% csrf_token %}
                     <div class="col-12">
-                      <label for="yourName" class="form-label"></label>
-                      <input type="text" name="name" class="form-control" id="yourName" required>
+                      <label for="gymMemberID" class="form-label"></label>
+                      <input type="text" name="gymMemberID" class="form-control" id="gymMemberID" required>
                       <div class="invalid-feedback">Customer ID Need</div>
                     </div>
                     <div class="col-12">
                      
                       <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
-                        <a href="users-profile.html" class="btn btn-primary">GET IN</a>
+                        <button  class="btn btn-primary">GET IN</button>
                         <a href="index.html" class="btn btn-success">Back To Home</a>
                       </div>
                     </div>
