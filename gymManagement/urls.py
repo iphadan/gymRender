@@ -9,11 +9,13 @@ path('addNewMember/',views.addNewMembers,name='addNewMember'),
 path('getIn/',views.getIn,name='getIn'),
 
 path('plan/',views.plan,name='plan'),
+path('registerPlan/',views.registerPlan,name='registerPlan'),
 path('payment/',views.payment,name='payment'),
 path('attendance/',views.attendance,name='attendance'),
 path('generateIdCard/',views.generateIdCard,name='generateIdCard'),
 path('reports/',views.reports,name='reports'),
 path('qr_code/', include('qr_code.urls', namespace="qr_code")),
+
 
 
 

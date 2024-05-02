@@ -2,9 +2,7 @@
 {% load static %}
 {% block content %}
 
-{% include 'nav.html' %}
 
-{% include 'aside.html'%}
   <main id="main" class="main">
 
     <div class="pagetitle">
@@ -27,7 +25,7 @@
                 
                 <th scope="col">Full Name</th>
                 <th scope="col">Plan Type</th>
-                <th scope="col">Date today</th>
+                <th scope="col">Entry Time</th>
                 <th scope="col">Remind Date</th>
                 <th scope="col">Expired Date</th>
                 <th scope="col">Attendance</th>
@@ -39,7 +37,7 @@
               <tr>
                 <td>{{attendance.gymMember.firstName}} {{attendance.gymMember.lastName}}</td>
                 <td>{{attendance.gymMember.plan}}</td>
-                <td>{{attendance.workoutDate}}</td>
+                <td>{{attendance.workoutTime}}</td>
                 <td>28</td>
                 <td>{{attendance.gymMember.joinedAt}}</td>
                 <td><button class="btn btn-success" disabled><i class="bi bi-check-circle"></i></button></td>

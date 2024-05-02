@@ -7,8 +7,11 @@ from django.utils.timezone import now
 #     user=models.ForeignKey(User,on_delete=models.CASCADE)
 
 class Plan(models.Model):
+    name=models.CharField(max_length=50,default='normal')
     title=models.CharField(max_length=50)
+    period=models.IntegerField(default=30)
     price=models.IntegerField(default=0)
+
     createdAt=models.DateTimeField(default=datetime.datetime.today())
 
 
@@ -20,8 +23,10 @@ class GymMember(models.Model):
     lastName=models.CharField(max_length=50)
     email=models.CharField(max_length=50)
     phone=models.CharField(max_length=14,default='0900000000')
+    gender=models.CharField(max_length=8,default="Male")
     photo=models.ImageField(upload_to='upload/profile',blank=True,null=True)
     plan=models.ForeignKey(Plan,on_delete=models.SET_NULL,null=True,blank=True)
+
     joinedAt=models.DateField(default=datetime.date.today())
     paidAt=models.DateTimeField(default=datetime.datetime.today())
     active=models.BooleanField(default=True)

@@ -3,9 +3,7 @@
 {% load qr_code %}
 {% block content %}
 
-{% include 'nav.html' %}
 
-{% include 'aside.html'%}
   <main id="main" class="main">
 
     
@@ -53,31 +51,33 @@
             
           
               {% endfor %}
+              {% if gymMember %}
     
     <div class="row">
-      <div class="col-6">
-        <div class="card">
-        <div class="row">
-          <h5 class="card-title text-center">Company Name</h5>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <img src="{% static 'assets/img/a.jpg' %}" alt="Profile" width="180px" height="150px">
-          </div>
-          <div class="col-7 pl-5">
-            <p class="card-text">Full Name: Efrem Yohhanis</p>
-          <p class="card-text">Member ID: A/UR14623/10</p>
-          <p class="card-text">Phone No. +25170003030</p>
-          <p class="card-text">Join Date: 02-01-2024</p>
-          </div>
-        </div>
-        <div class="row">
-          <img src="data:image/png;base64,{{ qr_code_image }}" alt="QR code Will appear here" style="width: 100px;">        </div>
+          <div class="col-6">
+            <div class="card">
+                <div class="row">
+                  <h5 class="card-title text-center">Company Name</h5>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="{{ gymMember.photo.url }}" alt="Profile" width="180px" height="150px">
+                  </div>
+                  <div class="col-7 pl-5">
+                    <p class="card-text">Full Name: {{gymMember.firstName}} {{gymMember.lastName}}</p>
+                  <p class="card-text">Member ID: {{gymMember.pk}}</p>
+                  <p class="card-text">Phone No. {{gymMember.phone}}</p>
+                  <p class="card-text">Join Date: {{gymMember.joinedAt}}</p>
+                  </div>
+                </div>
+                <div class="row">
+                    <img src="data:image/png;base64,{{ qr_code_image }}" alt="QR code Will appear here" style="width: 100px;">        </div>
 
-      </div>
-    </div>
+          </div>
+        </div>
+    
   </div>
-
+{% endif %}
           </div>
              <!-- Card with an image on left -->
 

@@ -12,7 +12,7 @@ from . import models
 def home(request):
     newGymMembers=models.GymMember.objects.filter(joinedAt=datetime.date.today())
     gymMembers=models.GymMember.objects.filter(joinedAt__year=datetime.date.today().year)
-    thisMonthGymMembers=models.GymMember.objects.filter(joinedAt__month=datetime.date.today().month)
+    thisMonthGymMembers=models.GymMember.objects.filter(joinedAt__month=datetime.date.today().month).order_by('-paidAt')
     print(thisMonthGymMembers)
     thisMonthRevenue=0
     for thisMonthGymMember in thisMonthGymMembers:
@@ -36,7 +36,7 @@ def home(request):
     return render(request,'index.html',context)
 
 def manageMembers(request):
-    gymMembers=models.GymMember.objects.all()
+    gymMembers=models.GymMember.objects.all().order_by('-paidAt')
     context={
         'gymMembers':gymMembers,
        
@@ -44,7 +44,29 @@ def manageMembers(request):
     }
     return render(request,'manageMembers.html',context)
 def addNewMembers(request):
-    return render(request,'registration.html')
+    
+    plans=models.Plan.objects.all()
+
+    context={
+        'plans':plans
+    }
+    if request.method == 'POST':
+        firstName=request.POST.get('firstName')
+        lastName=request.POST.get('lastName')
+        email=request.POST.get('email')
+        phone=request.POST.get('phone')
+        photo=request.FILES.get('photo')
+        plan=request.POST.get('plan')
+        gender=request.POST.get('gender')
+        plan=models.Plan.objects.get(pk=plan)
+        print(firstName,photo,str(plan.title),lastName,email,phone,gender)
+        try:
+            gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,phone=phone,photo=photo,plan=plan,gender=gender)
+            messages.success(request,'registered Successfully')
+        except:
+            messages.error(request,'Registration Failed, try again')
+
+    return render(request,'registration.html',context)
 def getIn(request):
     #if attendance in the day of getin is already taken , then count how many times the gym members come to the gym using noPerDay 
     if request.method == "POST":
@@ -76,9 +98,24 @@ def getIn(request):
 
     return render(request,'get_in.html')
 
+def registerPlan(request):
+    if request.method == "POST":
+        planTitle=request.POST.get('planTitle')
+        planName=request.POST.get('planName')
+        period=request.POST.get('period')
+        price=request.POST.get('price')
+        print(planName,planTitle,period,price)
 
+        try:
+            newPlan=models.Plan.objects.create(name=planName,title=planTitle,period=period,price=price)
+            messages.success(request,'New Plan Added Successfully')
+        except:
+            messages.error(request,'Somethin went error, try agian later')
+
+
+    return render(request,'add_new_plan.html')
 def plan(request):
-    plans=models.Plan.objects.all()
+    plans=models.Plan.objects.all().order_by('-createdAt')
     context={
         'plans':plans
     }
@@ -87,7 +124,7 @@ def payment(request):
     return render(request,'payment.html')
 def attendance(request):
     try:
-        todayAttendance=models.Attendance.objects.filter(workoutDate=datetime.date.today())
+        todayAttendance=models.Attendance.objects.filter(workoutDate=datetime.date.today()).order_by('-workoutTime')
         print(todayAttendance)
         context={
             'todayAttendance':todayAttendance
@@ -133,7 +170,7 @@ def generateIdCard(request):
                 }
             print(context)
             
-            messages.success(request,"QR code Generation was Success")
+        
             return render(request, 'generate_ID.html',context)
             
         except:

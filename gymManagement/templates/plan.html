@@ -2,9 +2,7 @@
 {% load static %}
 {% block content %}
 
-{% include 'nav.html' %}
 
-{% include 'aside.html'%}
   <main id="main" class="main">
 
     <div class="pagetitle">
@@ -30,7 +28,7 @@
                 <th scope="col">Price</th>
                 <th scope="col">No. of Registerd</th>
                 <th scope="col">Up Date</th>
-                <th scope="col">Delete</th>
+                <th scope="col">Disable</th>
                 
               </tr>
             </thead>
@@ -42,7 +40,7 @@
                 <td>{{plan.price}} ETB</td>
                 <td>{{plan.createdAt}}</td>
                 <td><button class="btn btn-warning"><i class="bx bx-reset"></i></button></td>
-                <td><button class="btn btn-danger"><i class="bi bi-trash"></i></button></td>
+                <td><button class="btn btn-danger"><i class="bi bi-key"></i></button></td>
               </tr>
               {% endfor %}
              
@@ -53,7 +51,7 @@
         </div>
       </div>
 <div class="text-end">
-    <a href="add_new_planne.html" class="btn btn-primary">Add New Plan</a>
+    <a href="{% url 'registerPlan' %}" class="btn btn-primary">Add New Plan</a>
 </div>
 
     </div>  
