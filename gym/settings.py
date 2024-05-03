@@ -15,14 +15,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-#SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%'
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%'
+#SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
-#DEBUG = True
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-#ALLOWED_HOSTS = []
+#DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
+DEBUG = True
+#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -73,17 +73,17 @@ WSGI_APPLICATION = 'gym.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': dj_database_url.parse('postgres://ohrmsdb_user:ZYaRnm6P0TcliugWglmy32DzGUemZmhj@dpg-cnnd44fjbltc738dquvg-a.oregon-postgres.render.com/end_to_end_db')
-# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.parse('postgres://yenemekinadb_user:o5Rfe6PMNXirtahuMZHGzPgBFu5C76F1@dpg-cojq4pu3e1ms73bg1tk0-a/yenemekinadb')
 }
-database_url=os.environ.get('DATABASE_URL')
-DATABASES['default'] = dj_database_url.parse(database_url)
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+# database_url=os.environ.get('DATABASE_URL')
+# DATABASES['default'] = dj_database_url.parse(database_url)
 
 
 
