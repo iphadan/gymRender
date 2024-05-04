@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gymManagement',
-    'qr_code',
+    
 ]
 
 MIDDLEWARE = [
