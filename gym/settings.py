@@ -73,15 +73,17 @@ WSGI_APPLICATION = 'gym.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 DATABASES = {
     'default': dj_database_url.parse('postgres://yenemekinadb_user:o5Rfe6PMNXirtahuMZHGzPgBFu5C76F1@dpg-cojq4pu3e1ms73bg1tk0-a/yenemekinadb')
 }
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 # database_url=os.environ.get('DATABASE_URL')
 # DATABASES['default'] = dj_database_url.parse(database_url)
 
