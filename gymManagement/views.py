@@ -63,6 +63,7 @@ def addNewMembers(request):
         try:
             gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,phone=phone,photo=photo,plan=plan,gender=gender)
             print(gymMember.photo.url," ===> ",gymMember.photo)
+
             messages.success(request,'registered Successfully')
         except:
             messages.error(request,'Registration Failed, try again')
@@ -80,6 +81,10 @@ def getIn(request):
             messages.error(request,"Gym Member with the provided ID does not exist, Please register the Customer")
             return render(request,'get_in.html')
         print(gymMember,datetime.date.today())
+        f = open(gymMember.photo.url, "r")
+        ff=open(gymMember.photo, "r")
+        print('f ==> ',f.read(),'ff ==> ',ff.read())
+
         workoutDate=datetime.date.today()
             
         try:
