@@ -10,6 +10,14 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .logo-container {
+  background-color: transparent;
+}
+
+/* If you want to make the image partially transparent */
+img.logo {
+  opacity: 0.5; /* Adjust the opacity as needed, 1 is fully opaque and 0 is fully transparent */
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

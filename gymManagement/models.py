@@ -26,7 +26,7 @@ class GymMember(models.Model):
     gender=models.CharField(max_length=8,default="Male")
     photo=models.ImageField(upload_to='upload/profile',blank=True,null=True)
     plan=models.ForeignKey(Plan,on_delete=models.SET_NULL,null=True,blank=True)
-
+    expireDate=models.DateField(default=datetime.date.today())
     joinedAt=models.DateField(default=datetime.date.today())
     paidAt=models.DateTimeField(default=datetime.datetime.today())
     active=models.BooleanField(default=True)

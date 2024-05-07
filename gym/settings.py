@@ -4,7 +4,8 @@ from pathlib import Path
 import os
 import qr_code
 import dj_database_url
-
+from django.core.management.commands.runserver import Command as runserver
+runserver.default_port = '7000' 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -20,7 +21,7 @@ SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
-DEBUG = True
+DEBUG = False
 #ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
 ALLOWED_HOSTS = ['*']
 
@@ -35,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gymManagement',
+    'qr_code',
     
 ]
 
@@ -74,15 +76,15 @@ WSGI_APPLICATION = 'gym.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://yenemekinadb_user:o5Rfe6PMNXirtahuMZHGzPgBFu5C76F1@dpg-cojq4pu3e1ms73bg1tk0-a/yenemekinadb')
+    'default': dj_database_url.parse('postgres://yenemekinadb_user:o5Rfe6PMNXirtahuMZHGzPgBFu5C76F1@dpg-cojq4pu3e1ms73bg1tk0-a.oregon-postgres.render.com/yenemekinadb')
 }
 # database_url=os.environ.get('DATABASE_URL')
 # DATABASES['default'] = dj_database_url.parse(database_url)
@@ -138,10 +140,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS=['static/']
-STATICFILES_EXCLUDE = [
-    'assets/vendor/tinymce/skins/content/default/content.js.map',
-    'assets/vendor/tinymce/skins/content/dark/content.js',
-]
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

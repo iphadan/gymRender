@@ -136,9 +136,11 @@ def attendance(request):
         }
     return render(request,'attendance.html',context)
 
-def generate_qrcode(username, user_id):
+def generate_qrcode(gymMember,expired):
     # Create the data string for the QR code
-    data = f"Username: {username}, ID: {user_id}"
+        
+        
+    data = f"Full Name: {gymMember.firstName +' ' + gymMember.lastName},\n ID: # {gymMember.pk} \n Expire Date : {gymMember.expireDate} \n Expire :?{expired}"
 
     # Generate the QR code image
     qr_code = qrcode.make(data)
@@ -162,11 +164,18 @@ def generateIdCard(request):
         try:
             id=request.POST.get('id')
             gymMember=models.GymMember.objects.get(pk=id)
-            qr_code_image = generate_qrcode(gymMember.firstName, gymMember.pk)
+            expired=""
+            if gymMember.expireDate > datetime.date.today():
+                expired= "Not Expired"
+            else:
+                expired= "Expired"
+            qr_code_image = generate_qrcode(gymMember,expired)
             
             context = {
             'qr_code_image': qr_code_image,
-            'gymMember':gymMember
+            'gymMember':gymMember,
+            'expired':expired
+            
                 }
             print(context)
             
