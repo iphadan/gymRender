@@ -23,7 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
 #DEBUG = False
 ALLOWED_HOSTS = ['gymrender.onrender.com','localhost']
-#ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
