@@ -164,6 +164,7 @@ def generateIdCard(request):
         try:
             id=request.POST.get('id')
             gymMember=models.GymMember.objects.get(pk=id)
+            print(gymMember.photo.url)
             expired=""
             if gymMember.expireDate > datetime.date.today():
                 expired= "Not Expired"
