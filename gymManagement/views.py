@@ -62,6 +62,7 @@ def addNewMembers(request):
         print(firstName,photo,str(plan.title),lastName,email,phone,gender)
         try:
             gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,phone=phone,photo=photo,plan=plan,gender=gender)
+            print(gymMember.photo.url," ===> ",gymMember.photo)
             messages.success(request,'registered Successfully')
         except:
             messages.error(request,'Registration Failed, try again')
