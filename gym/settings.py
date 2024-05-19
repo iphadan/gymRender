@@ -3,9 +3,8 @@
 from pathlib import Path
 import os
 
-import dj_database_url
 from django.core.management.commands.runserver import Command as runserver
-#runserver.default_port = '7000' 
+runserver.default_port = '7000' 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,6 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+
 
 #SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%'
 SECRET_KEY = os.environ.get('SECRET_KEY')
@@ -137,7 +137,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
+MEDIA_ROOT=BASE_DIR/'media/'
 
 
 # Default primary key field type
