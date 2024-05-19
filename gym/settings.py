@@ -3,6 +3,7 @@
 from pathlib import Path
 import os
 
+import dj_database_url
 from django.core.management.commands.runserver import Command as runserver
 runserver.default_port = '7000' 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
