@@ -4,7 +4,7 @@
 
 
   <main id="main" class="main">
-
+    <a href="{% url 'home' %}">Home</a> / Report
     
 
     <section class="section dashboard">
@@ -28,24 +28,33 @@
                       <tr>
                         <th scope="col">Members ID</th>
                         <th scope="col">Full Name</th>
-                        <th scope="col">Planne Type</th>
-                        <th scope="col">Paid Status</th>
+                        <th scope="col">Plan Type</th>
+                        <th scope="col">Paid AT</th>
                         <th scope="col">Join Date</th>
                         <th scope="col">Expired Date</th>
                         <th scope="col">Remind Day</th>
+                        <th scope="col">Expired ?</th>
                         
                       </tr>
                     </thead>
                     <tbody>
+                      {% for gymMember,expire in gymMembers.items %}
                       <tr>
-                        <th scope="row"><a href="#">2457</a></th>
-                        <td>Brandon Jacob</td>
-                        <td>One Month</a></td>
-                        <td>Paide</td>
-                        <td>02-23-2024</td>
-                        <td>02-23-2024</td>
+                        <th scope="row"><a href="#">{{gymMember.pk}}</a></th>
+                        <td>{{gymMember.firstName}} {{gymMember.lastName}}</td>
+                        <td>{{gymMember.plan.title}}</a></td>
+                        <td>{{gymMember.paidAt}}</td>
+                        <td>{{gymMember.joinedAt}}</td>
+                        <td>{{gymMember.expireDate}}</td>
                         <td>23</td>
+                        {% if expire %}
+                        <td style="color: red;">Expired</td>
+                        {% else  %}
+                        <td style="color: green;">Not Expired</td>
+                        {% endif %}
+                        
                       </tr>
+                      {% endfor %}
                     </tbody>
                   </table>
 

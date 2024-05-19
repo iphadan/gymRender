@@ -2,10 +2,10 @@
 
 from pathlib import Path
 import os
-import qr_code
+
 import dj_database_url
 from django.core.management.commands.runserver import Command as runserver
-runserver.default_port = '7000' 
+#runserver.default_port = '7000' 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,9 +21,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
-#DEBUG = False
-ALLOWED_HOSTS = ['gymrender.onrender.com','localhost']
-
+#DEBUG = True
+ALLOWED_HOSTS = ['gymrender.onrender.com','localhost','127.0.0.1']
+#ALLOWED_HOSTS=[]
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -83,7 +83,6 @@ DATABASES = {
     }
 }
 
-# DATABASES['default']=dj_database_url.parse("postgres://yenemekinadb_user:o5Rfe6PMNXirtahuMZHGzPgBFu5C76F1@dpg-cojq4pu3e1ms73bg1tk0-a.oregon-postgres.render.com/yenemekinadb")
 
 database_url=os.environ.get('DATABASE_URL')
 DATABASES['default'] = dj_database_url.parse(database_url)
@@ -132,17 +131,13 @@ USE_TZ = True
 # STATICFILES_DIRS=['static/']
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+STATIC_URL = '/static/'
+STATICFILES_DIRS=['static/']
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media/')
-
-
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS=['static/']
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Default primary key field type
@@ -150,4 +145,3 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-LOGIN_URL = '/'

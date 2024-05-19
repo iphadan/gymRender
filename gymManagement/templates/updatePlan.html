@@ -1,14 +1,16 @@
-{% extends 'base.html' %}
-
+{% extends 'base.html'%}
+{% load static %}
 {% block content %}
+
+
   <main id="main" class="main">
-    <a href="{% url 'home' %}">Home</a> / AddNewPlan
+    <a href="{% url 'home' %}">Home</a> / <a href="{% url 'plan' %}">Plans</a> / UpdatePlan
     <div class="pagetitle">
-      <h1>Add New Plan</h1>
+      <h1>Update Plan</h1>
       
     </div><!-- End Page Title -->
 
-    <section class="section">
+    <section class="section mt-4">
       {% for message in messages %}
       
       <div class="alert alert-warning alert-dismissible fade show" role="alert">
@@ -18,7 +20,6 @@
     
   
       {% endfor %}
-
       <div class="row">
         <div class="col-12">
             <div class="card">
@@ -26,38 +27,45 @@
                   <h5 class="card-title"></h5>
     
                   <!-- General Form Elements -->
-                  <form action="{% url 'registerPlan' %}" method="post">
+                  <form action="{% url 'updatePlan' id=plan.pk %}" method="post" enctype="multipart/form-data">
                     {% csrf_token %}
                     <div class="row mb-3">
                       <label for="inputText" class="col-sm-2 col-form-label">Plan Name</label>
                       <div class="col-sm-12">
-                        <input type="text" class="form-control" name="planName">
+                        <input type="text" class="form-control" name="firstName" value="{{plan.name}}" required>
                       </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="inputText" class="col-sm-2 col-form-label">Plan Tilte</label>
+                        <label for="inputText" class="col-sm-2 col-form-label">Plan Title</label>
                         <div class="col-sm-12">
-                          <input type="text" class="form-control" name="planTitle">
+                          <input type="text" class="form-control" name="firstName" value="{{plan.title}}" required>
+                        </div>
+                      </div>
+    
+                      <div class="row mb-3">
+                        <label for="inputText" class="col-sm-2 col-form-label">Plan Period</label>
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" name="firstName" value="{{plan.period}}" required>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <label for="inputText" class="col-sm-2 col-form-label">Plan Price</label>
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" name="firstName" value="{{plan.price}}" required>
                         </div>
                       </div>
 
                       <div class="row mb-3">
-                        <label for="inputNumber" class="col-sm-2 col-form-label">Validity Period</label>
+                        <label for="inputText" class="col-sm-2 col-form-label">Price</label>
                         <div class="col-sm-12">
-                          <input type="number" class="form-control" name="period">
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <label for="inputNumber" class="col-sm-2 col-form-label">Price</label>
-                        <div class="col-sm-12">
-                          <input type="number" class="form-control" name="price">
+                          <input type="text" class="form-control" disabled>
                         </div>
                       </div>
 
                     <div class="row mb-3">
                      
                       <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary">Submit Form</button>
+                        <button type="submit" class="btn btn-primary">Update</button>
                       </div>
                     </div>
     
@@ -68,9 +76,10 @@
 
 
 
-    </div>    
+    </div>  
     </div>
     </section>
 
   </main><!-- End #main -->
-{% endblock %}
+
+  {% endblock %}

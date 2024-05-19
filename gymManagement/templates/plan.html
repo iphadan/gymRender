@@ -4,7 +4,7 @@
 
 
   <main id="main" class="main">
-
+    <a href="{% url 'home' %}">Home</a> / Plans
     <div class="pagetitle">
       <h1>Plan</h1>
       
@@ -39,7 +39,7 @@
                
                 <td>{{plan.price}} ETB</td>
                 <td>{{plan.createdAt}}</td>
-                <td><button class="btn btn-warning"><i class="bx bx-reset"></i></button></td>
+                <td><a href="{% url 'updatePlan' id=plan.pk %}"><button class="btn btn-warning"><i class="bx bx-reset"></i></button></td></a>
                 <td><button class="btn btn-danger"><i class="bi bi-key"></i></button></td>
               </tr>
               {% endfor %}

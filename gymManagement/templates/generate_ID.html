@@ -6,7 +6,7 @@
 
   <main id="main" class="main">
 
-    
+    <a href="{% url 'home' %}">Home</a> / GenerateID
 
     <section class="section dashboard">
       <div class="row">
@@ -61,13 +61,14 @@
                 </div>
                 <div class="row" >
                   <div class="col-4">
-                    <img src="{{ gymMember.photo.url }}" alt="Profile" width="180px" height="150px">
+                    <img src="{{ gymMember.photo.url }}" alt="profile" width="180px" height="150px">
                   </div>
                   <div class="col-7 pl-5">
                     <p class="card-text">Full Name: {{gymMember.firstName}} {{gymMember.lastName}}</p>
                   <p class="card-text">Member ID: {{gymMember.pk}}</p>
                   <p class="card-text">Phone No. {{gymMember.phone}}</p>
                   <p class="card-text">Join Date: {{gymMember.joinedAt}}</p>
+                  <p class="card-text">Join Date: {{gymMember.expireDate}}</p>
                   </div>
                 </div>
                 <div class="row">

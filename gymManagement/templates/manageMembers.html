@@ -4,7 +4,7 @@
 
 
   <main id="main" class="main">
-
+    <a href="{% url 'home' %}">Home</a>  /
     <div class="pagetitle">
       <h1>Manage Members</h1>
       
@@ -41,8 +41,8 @@
                 <td>{{gymMember.paidAt}}</td>
                 <td>{{gymMember.expireDate}}</td>
                 <td>28</td>
-                <td><a href="detail_view.html" class="btn btn-info"><i class="bi bi-eye"></i></a></td>
-                <td><a href="update_user.html" class="btn btn-warning"><i class="bx bx-reset"></i></a></td>
+                <td><a href="{% url 'gymMemberProfile' id=gymMember.pk %}" class="btn btn-info"><i class="bi bi-eye"></i></a></td>
+                <td><a href="{% url 'updateMember' id=gymMember.pk %}" class="btn btn-warning"><i class="bx bx-reset"></i></a></td>
                 <td><button class="btn btn-danger"><i class="bi bi-trash"></i></button></td>
                 
               </tr>{% endfor %}
