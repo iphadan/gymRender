@@ -7803,6 +7803,7 @@
     }); };
     var parseBackgroundColor = function (context, element, backgroundColorOverride) {
         var ownerDocument = element.ownerDocument;
+        // http://www.w3.org/TR/css3-background/#special-backgrounds
         var documentBackgroundColor = ownerDocument.documentElement
             ? parseColor(context, getComputedStyle(ownerDocument.documentElement).backgroundColor)
             : COLORS.TRANSPARENT;
