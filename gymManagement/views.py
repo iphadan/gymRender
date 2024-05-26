@@ -230,7 +230,7 @@ def generate_qrcode(gymMember,expired):
     # Create the data string for the QR code
         
         
-    data = f"Full Name: {gymMember.firstName +' ' + gymMember.lastName},\n ID: # {gymMember.pk} \n Expire Date : {gymMember.expireDate} \n Expire ?:{expired}"
+    data = f"Full Name: {gymMember.firstName +' ' + gymMember.lastName},\n ID: # {gymMember.pk} \n Join Date : {gymMember.joinedAt}  \n Expire Date : {gymMember.expireDate} \n Status: {expired}"
 
     # Generate the QR code image
     qr_code = qrcode.make(data)
@@ -267,11 +267,11 @@ def generateIdCard(request):
             'expired':expired
             
              }
-            print(context)
+           
             return render(request, 'generate_ID.html',context=context)
             
         except:
-           print('except')
+           
            messages.error(request,'Gym member with the provided ID does not exist')
            return render(request,'generate_ID.html')
 

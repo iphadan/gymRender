@@ -53,28 +53,37 @@
               {% endfor %}
               {% if gymMember %}
     
-    <div class="row" >
-          <div class="col-6">
-            <div class="card" style="background-color: rgb(32, 28, 4);color: gold;">
-                <div class="row">
-                  <h5 class="card-title text-center" style="color: White;">Yene Gym</h5>
+              <div class="col-sm-12 col-lg-3">
+                <div class="gym-card">
+                
+                <div class="gym-card-header">
+                  <h5 class="gym-card-title">Yene Gym</h5>
                 </div>
-                <div class="row" >
-                  <div class="col-4">
-                    <img src="{{ gymMember.photo.url }}" alt="profile" width="180px" height="150px">
+                <div class="gym-card-body">
+                  <div class="gym-card-profile">
+                    <img src="{{ gymMember.photo.url }}" alt="Profile" class="gym-card-profile-img">
+                    <div class="gym-card-profile-info">
+                      <p class="gym-card-profile-name">{{ gymMember.firstName }} {{ gymMember.lastName }}</p>
+                      <p class="gym-card-profile-id"><strong>Member ID: </strong>{{ gymMember.pk }}</p>
+                      
+                      <p class="gym-card-profile-phone"><strong>Phone No.</strong>{{ gymMember.phone }} </p>
+                     
+                      <p class="gym-card-profile-join"><strong>Join Date:</strong>{{ gymMember.joinedAt }}</p>
+                  
+                      <p class="gym-card-profile-expire"><strong>Expire Date: </strong>{{ gymMember.expireDate }}</p>
+                    
+                    </div>
                   </div>
-                  <div class="col-7 pl-5">
-                    <p class="card-text">Full Name: {{gymMember.firstName}} {{gymMember.lastName}}</p>
-                  <p class="card-text">Member ID: {{gymMember.pk}}</p>
-                  <p class="card-text">Phone No. {{gymMember.phone}}</p>
-                  <p class="card-text">Join Date: {{gymMember.joinedAt}}</p>
-                  <p class="card-text">Join Date: {{gymMember.expireDate}}</p>
+                  <div class="gym-card-qr">
+                    <img src="data:image/png;base64,{{ qr_code_image }}" alt="QR Code" class="gym-card-qr-img">
+                   
+                    
                   </div>
+                  <h5 class="gym-card-pro">Yene Gym</h5>
                 </div>
-                <div class="row">
-                    <img src="data:image/png;base64,{{ qr_code_image }}" alt="QR code Will appear here" style="width: 100px;">        </div>
-{% if expired == "Expired" %} <span style="color: red; font-weight: bolder;">Expired</span> {%else %}<span style="color: rgb(60, 255, 210);">Not Expired</span> {% endif %}
-          </div>
+              </div>
+            </div>
+              <button onclick="downloadGymCard()" class="gym-card-download">Download Card</button>
         </div>
     
   </div>
