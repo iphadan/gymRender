@@ -1,0 +1,99 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block content %}
+
+  <main id="main" class="main">
+
+  <a href="{% url 'home' %}">Home</a> / <a href="{% url 'manageMembers' %}">ManageMembers</a> / GymMeberProfile
+  {% for message in messages %}
+      
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      {{message}}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+  {% endfor %}
+
+    <section class="section profile pt-5">
+      <div class="row" >
+       
+        <div class="col-xl-3">
+
+          <div class="card">
+            <div class="card-body pt-4 d-flex flex-column align-items-center">
+              {% if gymMember.photo %}
+              <img src="{{ gymMember.photo.url }}" alt="Profile" style="width: 170px; height: 200px;">
+              {% else %}
+              <img src="{% static 'assets/img/defualtUserimg.jpeg' %}" alt="Profile" style="width: 170px; height: 200px;">
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-xl-8">
+
+          <div class="card">
+            <div class="card-body pt-3">
+              
+              <div class="tab-content pt-2">
+                <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                 
+                 <h5 class="card-title">Profile Details</h5>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label ">Full Name</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.firstName}} {{gymMember.lastName}}</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label ">Menber ID</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.pk}}</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Plan Title</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.plan.title}}</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Plan Name</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.plan.name}}</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Join Date</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.joinedAt}}</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Expired Date</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.expireDate}}</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Date Today</div>
+                    <div class="col-lg-9 col-md-8">{{today}}</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Paid Day</div>
+                    <div class="col-lg-9 col-md-8">{{gymMember.paidAt}}</div>
+                  </div>
+               
+
+                  
+
+                </div>
+              </div><!-- End Bordered Tabs -->
+
+            </div>
+          </div>
+          <div class="text-end">     
+</div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  {% endblock %}

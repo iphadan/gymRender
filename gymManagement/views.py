@@ -11,6 +11,8 @@ from django.contrib.auth.decorators import login_required
 from dateutil.relativedelta import relativedelta
 import qrcode
 from . import models
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 # import qrcode
 
 # Create your views here.
@@ -421,3 +423,14 @@ def reports(request):
     return render(request,'login.html')
 def scanner(request):
     return render(request,'scanner.html')
+
+@api_view(['GET'])
+def qrScanner(request, id):
+    try:
+        gym_member = models.GymMember.objects.get(pk=id)
+        context = {
+            'gymMember': gym_member
+        }
+        return render(request, 'rest_framework/api.html', context)
+    except models.GymMember.DoesNotExist:
+        return Response({'error': f'Gym member with ID {id} not found.'}, status=404)

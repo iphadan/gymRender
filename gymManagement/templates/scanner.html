@@ -3,52 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QR Code Scanner</title>
     <script src="https://unpkg.com/html5-qrcode"></script>
-    
-
 </head>
 <body>
-    
-    <input type="file" name="image" accept="image/*" capture="environment">
-    <div class="card-body" >
-        <h5 class="card-title">NEW <span>| Today</span></h5>
-
-        <div class="d-flex align-items-center" id="my-qr-reader">
-       
-        </div>
-      </div>
-
-
-
-
-
-
+    <div class="card-body">
+        <div class="d-flex align-items-center" id="my-qr-reader"></div>
+        <p id="message"></p>
+    </div>
     <script>
-// script.js file
-function domReady(fn) {
-    if (document.readyState === "complete" || document.readyState === "interactive") {
-        setTimeout(fn, 1000);
-    } else {
-        document.addEventListener("DOMContentLoaded", fn);
-    }
-}
+        document.addEventListener("DOMContentLoaded", function() {
+            function onScanSuccess(decodeText, decodeResult) {
 
-domReady(function () {
-    function onScanSuccess(decodeText, decodeResult) {
-        alert("Scanned QR code: " + decodeText);
-    }
+                // Extract the ID from the decodeResult object
+                const idRegex = /ID:\s*#\s*(\d+)/;
+                const match = decodeText.match(idRegex);
+               const id = match[1];
+                if (confirm(`QR code content: ${id}. Do you want to proceed?`)) {
+                    // User confirmed, do something with the decodeText
+                    window.location.replace(`http://127.0.0.1:7000/qrScanner/${id}`)
 
-    const htmlScanner = new Html5QrcodeScanner("my-qr-reader", {
-        fps: 10,
-        qrbos: 250,
-    });
+                    //document.getElementById('message').textContent = `QR code content: ${decodeText}`;
+                } else {
+                    // User canceled
+                    document.getElementById('message').textContent = 'QR code scan canceled.';
+                }
+            }
 
-    htmlScanner.render(onScanSuccess);
-});
+            const htmlScanner = new Html5QrcodeScanner("my-qr-reader", {
+                fps: 10,
+                qrbos: 250,
+            });
 
-
+            htmlScanner.render(onScanSuccess);
+        });
     </script>
 </body>
-
 </html>

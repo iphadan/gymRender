@@ -25,7 +25,9 @@ path('login/',views.loginUser,name='login'),
 path('logout/',views.logoutUser,name='logout'),
 
 
-path('scanner/',views.scanner,name='scanner')
+path('scanner/',views.scanner,name='scanner'),
+
+path('qrScanner/<int:id>/', views.qrScanner,name='qrScanner'),
 
 
 
