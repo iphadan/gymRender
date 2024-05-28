@@ -9,6 +9,15 @@
       <h1>Payment</h1>
       
     </div><!-- End Page Title -->
+    {% for message in messages %}
+      
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  
+
+    {% endfor %}
 
     <section class="section">
 
@@ -19,39 +28,38 @@
                   <h5 class="card-title"></h5>
     
                   <!-- General Form Elements -->
-                  <form>
+                  <form method="post" action="{% url 'payment' %}">
+                    {% csrf_token %}
                     <div class="row mb-3">
                         <label for="inputText" class="col-sm-2 col-form-label">Member Id</label>
                         <div class="col-sm-12">
-                          <input type="text" class="form-control">
+                          <input type="text" class="form-control" name="id">
                         </div>
                       </div>
-                    <div class="row mb-3">
+                    <!-- <div class="row mb-3">
                       <label for="inputText" class="col-sm-2 col-form-label">First Name</label>
                       <div class="col-sm-12">
                         <input type="text" class="form-control" disabled>
                       </div>
-                    </div>
+                    </div> -->
                     
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">Plan</label>
-                        <div class="col-sm-12">
-                          <select class="form-select" aria-label="Default select example">
-                            <option selected>Select Plan</option>
-                            <option value="1">One Month Plan</option>
-                            <option value="2">Three Month Plan</option>
-                            <option value="3">Six Month Plan</option>
-                            <option value="3">One year Plan</option>
-                          </select>
-                        </div>
+                      <label class="col-sm-2 col-form-label">Plan</label>
+                      <div class="col-sm-12">
+                        <select class="form-select" aria-label="Default select example" name="plan">
+                          {% for plan in plans %}
+                          <option value="{{plan.pk}}" >{{plan}}</option>
+                        {% endfor %}
+                        </select>
                       </div>
+                    </div>
                     
-                      <div class="row mb-3">
+                      <!-- <div class="row mb-3">
                         <label for="inputText" class="col-sm-2 col-form-label">Price</label>
                         <div class="col-sm-12">
                           <input type="text" class="form-control" disabled>
                         </div>
-                      </div>
+                      </div> -->
 
                     <div class="row mb-3">
                      

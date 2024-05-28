@@ -24,7 +24,7 @@ class GymMember(models.Model):
     email=models.CharField(max_length=50)
     phone=models.CharField(max_length=14,default='0900000000')
     gender=models.CharField(max_length=8,default="Male")
-    photo=models.ImageField(upload_to='upload/profile',blank=True,null=True,default='upload/profile/defaultUserimg.jpeg')
+    photo=models.ImageField(upload_to='upload/profile',blank=True,null=True,default='upload/profile/defaultUserImg.jpeg')
     plan=models.ForeignKey(Plan,on_delete=models.SET_NULL,null=True,blank=True)
     expireDate=models.DateField(default=datetime.date.today())
     joinedAt=models.DateField(default=datetime.date.today())

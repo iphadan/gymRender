@@ -5,6 +5,15 @@
 
   <main id="main" class="main">
     <a href="{% url 'home' %}">Home</a>  /
+    {% for message in messages %}
+      
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        {{message}}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+  
+
+    {% endfor %}
     <div class="pagetitle">
       <h1>Manage Members</h1>
       

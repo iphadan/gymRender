@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    
+
+</head>
+<body>
+    
+    <input type="file" name="image" accept="image/*" capture="environment">
+    <div class="card-body" >
+        <h5 class="card-title">NEW <span>| Today</span></h5>
+
+        <div class="d-flex align-items-center" id="my-qr-reader">
+       
+        </div>
+      </div>
+
+
+
+
+
+
+    <script>
+// script.js file
+function domReady(fn) {
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        setTimeout(fn, 1000);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}
+
+domReady(function () {
+    function onScanSuccess(decodeText, decodeResult) {
+        alert("Scanned QR code: " + decodeText);
+    }
+
+    const htmlScanner = new Html5QrcodeScanner("my-qr-reader", {
+        fps: 10,
+        qrbos: 250,
+    });
+
+    htmlScanner.render(onScanSuccess);
+});
+
+
+    </script>
+</body>
+
+</html>

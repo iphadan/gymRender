@@ -75,27 +75,27 @@
                       <div class="row mb-3">
                         <label for="fileInput" class="col-sm-2 col-form-label">Photo</label>
                         <div class="col-sm-12">
-                          <input type="file" class="form-control" name="photo" id="fileInput" >
+                          <input type="file" class="form-control" name="photo" id="fileInput" disabled>
                         </div>
                       </div>
 
-                      <div class="row mb-3">
+                      <div class="row mb-3" >
                         <label class="col-sm-2 col-form-label">Plan</label>
                         <div class="col-sm-12">
-                          <select class="form-select" aria-label="Default select example" name="plan">
-                            {% for plan in plans%}
-                            <option value="{{plan.pk}}" >{{plan}}</option>
-                          {% endfor %}
+                          <select class="form-select" aria-label="Default select example" name="plan" disabled>
+                         
+                            <option value="{{gymMember.plan.pk}}" >{{gymMember.plan}}ETB</option>
+                          
                           </select>
                         </div>
                       </div>
                     
-                      <div class="row mb-3">
+                      <!-- <div class="row mb-3">
                         <label for="inputText" class="col-sm-2 col-form-label">Price</label>
                         <div class="col-sm-12">
                           <input type="text" class="form-control" disabled>
                         </div>
-                      </div>
+                      </div> -->
 
                     <div class="row mb-3">
                      

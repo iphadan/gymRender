@@ -46,8 +46,8 @@
                         <td>{{gymMember.paidAt}}</td>
                         <td>{{gymMember.joinedAt}}</td>
                         <td>{{gymMember.expireDate}}</td>
-                        <td>23</td>
-                        {% if expire %}
+                        <td>{{expire.1}}</td>
+                        {% if expire.0 %}
                         <td style="color: red;">Expired</td>
                         {% else  %}
                         <td style="color: green;">Not Expired</td>

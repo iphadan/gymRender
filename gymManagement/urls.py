@@ -21,6 +21,13 @@ path('generateIdCard/',views.generateIdCard,name='generateIdCard'),
 path('reports/',views.reports,name='reports'),
 path('qr_code/', include('qr_code.urls', namespace="qr_code")),
 
+path('login/',views.loginUser,name='login'),
+path('logout/',views.logoutUser,name='logout'),
+
+
+path('scanner/',views.scanner,name='scanner')
+
+
 
 
 
