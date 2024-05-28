@@ -1,6 +1,8 @@
 
 from django.urls import path,include
 from . import views
+# from .views import ScannerView
+
 
 urlpatterns = [
 path('',views.home,name='home'),
@@ -25,7 +27,11 @@ path('login/',views.loginUser,name='login'),
 path('logout/',views.logoutUser,name='logout'),
 
 
-path('scanner/',views.scanner,name='scanner')
+# path('scanner1/',views.scanner1,name='scanner1'),
+# path('scanner/<int:id>',views.scanner,name='scanner'),
+
+# path('api/scanner/<int:id>/', ScannerView.as_view(), name='scanner-api'),
+
 
 
 

@@ -9,8 +9,16 @@ from django.contrib.auth.models import User
 from django.utils.timezone import now
 from django.contrib.auth.decorators import login_required
 from dateutil.relativedelta import relativedelta
+from rest_framework.views import APIView
+from rest_framework.response import Response
 import qrcode
 from . import models
+import json
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from django.http import JsonResponse
 # import qrcode
 
 # Create your views here.
@@ -419,5 +427,38 @@ def reports(request):
         return render(request,'report.html',context)
     messages.error(request,'login first')
     return render(request,'login.html')
-def scanner(request):
-    return render(request,'scanner.html')
+# def scanner1(request):
+#     return render(request,'scanner.html')
+
+# def scanner(request, id):
+#         try:
+#             gym_member = models.GymMember.objects.get(id=id)
+#             data = {
+#                 'id': gym_member.id,
+#                 'name': gym_member.firstName,
+              
+#             }
+#             return JsonResponse(data)
+#         except gym_member.DoesNotExist:
+#             return JsonResponse({'error': 'Gym member not found'}, status=404)
+
+
+# class ScannerView(APIView):
+#     def default(self, obj):
+#         if obj is Ellipsis:
+#             return "..."  # Replace Ellipsis with a string representation
+#         else:
+#             return super().default(obj)
+
+#     def get(self, request, *args, **kwargs):
+#         # Your logic to handle the GET request and fetch the data
+#         data = {
+#             'message': 'QR code scanned successfully',
+#             'data': {
+#                 'id': 1,
+#                 'name': 'John Doe',
+#                 'age': 30,
+#                 'other_data': ...  # Ellipsis object
+#             }
+#         }
+#         return Response(data, encoder=self.default)
