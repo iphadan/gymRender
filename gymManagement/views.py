@@ -9,6 +9,8 @@ from django.contrib.auth.models import User
 from django.utils.timezone import now
 from django.contrib.auth.decorators import login_required
 from dateutil.relativedelta import relativedelta
+from rest_framework.views import APIView
+from rest_framework.response import Response
 import qrcode
 from . import models
 from rest_framework.decorators import api_view

@@ -7,6 +7,7 @@
     <script src="https://unpkg.com/html5-qrcode"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <div class="card-body">
         <div class="d-flex align-items-center" id="my-qr-reader"></div>
         <p id="message"></p>
@@ -22,6 +23,57 @@
                 if (confirm(`QR code content: ${id}. Do you want to proceed?`)) {
                     // User confirmed, do something with the decodeText
                     window.location.replace(`http://127.0.0.1:7000/qrScanner/${id}`)
+=======
+    
+    <input type="file" name="image" accept="image/*" capture="environment">
+    <div class="card-body" >
+        <h5 class="card-title">NEW <span>| Today</span></h5>
+
+        <div class="d-flex align-items-center" id="my-qr-reader">
+       
+        </div>
+      </div>
+
+
+
+
+    <button onclick="callApi()">Call api</button>
+
+    <script>
+        const apiUrl = "https://127.0.0.1:7000/scanner";
+
+function domReady(fn) {
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        setTimeout(fn, 1000);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}
+
+domReady(function () {
+    function onScanSuccess(decodeText, decodeResult) {
+        
+alert("Scanned QR code: " + decodeText);
+        // Send API request
+        fetch(`${apiUrl}/${decodeResult[id]}`, {
+            method: 'GET',
+            mode : 'no-cors'
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Display the API response in JSON format
+            const responseContainer = document.createElement('pre');
+            responseContainer.textContent = JSON.stringify(data, null, 2);
+            document.body.appendChild(responseContainer);
+
+            console.log('API response:', data);
+            // Handle the API response as needed
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+>>>>>>> 04e88cf79a3604bc2093ccbf3abe3865c9a4bfe7
 
                     //document.getElementById('message').textContent = `QR code content: ${decodeText}`;
                 } else {
@@ -30,6 +82,7 @@
                 }
             }
 
+<<<<<<< HEAD
             const htmlScanner = new Html5QrcodeScanner("my-qr-reader", {
                 fps: 10,
                 qrbos: 250,
@@ -37,6 +90,34 @@
 
             htmlScanner.render(onScanSuccess);
         });
+=======
+function callApi(){
+    fetch('http://127.0.0.1:7000/scanner/1', {
+  mode: 'no-cors'
+})
+  .then(response => {
+    if (response.ok) {
+    console.log(response);
+      return response.json();
+      
+    } else {
+      return response.text(); // Assuming the server returns an HTML error page
+    }
+  })
+  .then(data => {
+    if (typeof data === 'string') {
+      // Handle the HTML error page
+      console.error('Server returned an error page:', data);
+    } else {
+      // Process the JSON data
+      console.log('API response:', data);
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+}
+>>>>>>> 04e88cf79a3604bc2093ccbf3abe3865c9a4bfe7
     </script>
 </body>
 </html>
