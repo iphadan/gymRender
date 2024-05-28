@@ -18,14 +18,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
-SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%'
-#SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = 'django-insecure-t85ojesbszrra5=1m98sex5kx%4avpzpw#^q_^57hk0%e0itf%'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
-DEBUG = True
+DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
+#DEBUG = True
 ALLOWED_HOSTS = ['gymrender.onrender.com','localhost','127.0.0.1']
 #ALLOWED_HOSTS=['*']
 
@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'gymManagement',
     'qr_code',
     
-    
 ]
 
 MIDDLEWARE = [
@@ -55,8 +54,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-   
-    
 ]
 
 ROOT_URLCONF = 'gym.urls'
@@ -92,8 +89,8 @@ DATABASES = {
 }
 
 
-# database_url=os.environ.get('DATABASE_URL')
-# DATABASES['default'] = dj_database_url.parse(database_url)
+database_url=os.environ.get('DATABASE_URL')
+DATABASES['default'] = dj_database_url.parse(database_url)
 
 
 
