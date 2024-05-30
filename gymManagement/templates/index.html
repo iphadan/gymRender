@@ -121,6 +121,7 @@
 
             </div><!-- End Customers Card -->
             {% for key,entry in planRevenue.items %}
+            {% if entry.1.status %}
             <div class="col-xxl-4 col-md-6">
               <div class="card info-card sales-card">
 
@@ -155,6 +156,7 @@
 
               </div>
             </div><!-- End Sales Card -->
+            {% endif %}
            {% endfor %}
             <div class="col-12">
               <div class="card recent-sales overflow-auto">

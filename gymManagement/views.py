@@ -213,16 +213,20 @@ def gymMemberProfile(request,id):
             try:
                 gymMember=models.GymMember.objects.get(pk=id)
                 
+                today=datetime.date.today()
+                expired=gymMember.expireDate < today
+                
                 context={
                         'gymMember':gymMember,
-                        'today':datetime.datetime.today()
+                        'today':today,
+                        'expired':expired
                     }
+                return render(request,'gymMemberProfile.html',context)
 
             except:
-                messages.error(request,f'Gym Member with the provided {gymMember.pk} ID does not exist! ')
-                context={}
-            
-            return render(request,'gymMemberProfile.html',context)
+                messages.error(request,f'Gym Member with the provided {id} ID does not exist! ')
+                return redirect('manageMembers')
+
         messages.error(request,'login first')
         return render(request,'login.html')    
 
