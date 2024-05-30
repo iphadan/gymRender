@@ -11,7 +11,7 @@ class Plan(models.Model):
     title=models.CharField(max_length=50)
     period=models.IntegerField(default=30)
     price=models.IntegerField(default=0)
-
+    status=models.BooleanField(default=True)
     createdAt=models.DateTimeField(default=datetime.datetime.today())
 
 

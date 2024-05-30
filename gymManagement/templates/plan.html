@@ -36,20 +36,31 @@
                 <th scope="col">Price</th>
                 <th scope="col">No. of Registerd</th>
                 <th scope="col">Up Date</th>
-                <th scope="col">Disable</th>
+                <th scope="col">Block</th>
                 
               </tr>
             </thead>
             <tbody> 
                {% for plan in plans %}
+               {% if plan.status %}
               <tr>
                 <th>{{plan.title}}</th>
                
                 <td>{{plan.price}} ETB</td>
                 <td>{{plan.createdAt}}</td>
                 <td><a href="{% url 'updatePlan' id=plan.pk %}"><button class="btn btn-warning"><i class="bx bx-reset"></i></button></td></a>
-                <td><button class="btn btn-danger"><i class="bi bi-key"></i></button></td>
+                <td><a href="{% url 'blockPlan' id=plan.pk %}"><button class="btn btn-danger"><i class="bi bi-key"></i></button></td></a>
               </tr>
+              {% else %}
+              <tr>
+                <th>{{plan.title}}</th>
+               
+                <td>{{plan.price}} ETB</td>
+                <td>{{plan.createdAt}}</td>
+                <td><a href="{% url 'updatePlan' id=plan.pk %}"><button class="btn btn-warning"><i class="bx bx-reset"></i></button></td></a>
+                <td><a href="{% url 'unblockPlan' id=plan.pk %}"><button class="btn btn-success"><i class="bi bi-key"></i></button></td></a>
+              </tr>
+              {% endif %}
               {% endfor %}
              
               

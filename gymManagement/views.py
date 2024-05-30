@@ -93,7 +93,7 @@ def manageMembers(request):
 
 def addNewMembers(request):
     if request.user.is_authenticated:
-        plans=models.Plan.objects.all()
+        plans=models.Plan.objects.filter(status=True)
 
         context={
             'plans':plans
@@ -111,13 +111,11 @@ def addNewMembers(request):
             try:
                 plan=models.Plan.objects.get(pk=plan)
                 expireDate= datetime.date.today() + relativedelta(days=plan.period)
-                print(expireDate, '=>> + ',relativedelta(plan.period))
                 # ,expireDate=datetime.date.today() + plan.period
                 if photo:
                     gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,photo=photo,phone=phone,plan=plan,gender=gender,expireDate=expireDate)
-                    print(gymMember.photo.url," ===> ",gymMember.photo)
                 else:
-                    gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,phone=phone,plan=plan,gender=gender)
+                    gymMember=models.GymMember.objects.create(firstName=firstName,lastName=lastName,email=email,phone=phone,plan=plan,gender=gender,expireDate=expireDate)
             
                 messages.success(request,'registered Successfully')
             except:
@@ -156,7 +154,7 @@ def updateMember(request,id):
                 
             except:
                 gymMember=models.GymMember.objects.get(id=id)
-                plans=models.Plan.objects.all()
+                plans=models.Plan.objects.filter(status=True)
                 context={
                 'plans':plans
                 ,'gymMember':gymMember
@@ -165,7 +163,7 @@ def updateMember(request,id):
                 return render(request,f'update_user.html',context)
         try:
             gymMember=models.GymMember.objects.get(id=id)
-            plans=models.Plan.objects.all()
+            plans=models.Plan.objects.filter(status=True)
             context={
                 'plans':plans
                 ,'gymMember':gymMember
@@ -187,7 +185,6 @@ def updatePlan(request,id):
             planName=request.POST.get('planName')
             period=request.POST.get('period')
             price=request.POST.get('price')
-            print(planName,planTitle,period,price)
 
             try:
                 newPlan=models.Plan.objects.filter(id=id).update(name=planName,title=planTitle,period=period,price=price)
@@ -294,7 +291,7 @@ def registerPlan(request):
 
 def plan(request):
     if request.user.is_authenticated:
-        plans=models.Plan.objects.all().order_by('-createdAt')
+        plans=models.Plan.objects.all().order_by('-createdAt')  
         context={
             'plans':plans
         }
@@ -304,7 +301,7 @@ def plan(request):
 def payment(request):
         if request.user.is_authenticated:
             try:
-                plans=models.Plan.objects.all()
+                plans=models.Plan.objects.filter(status=True)
             except:
 
                 messages.error(request,'There is No Plan/Package Registered yet')
@@ -408,7 +405,7 @@ def generateIdCard(request):
 
 def reports(request):
     if request.user.is_authenticated:
-        gymMembersList=models.GymMember.objects.all()
+        gymMembersList=models.GymMember.objects.all().order_by('-paidAt')
         gymMembers={}
         for gymMember in  gymMembersList:
             if gymMember.expireDate < datetime.date.today():
@@ -428,11 +425,40 @@ def scanner(request):
 
 @api_view(['GET'])
 def qrScanner(request, id):
-    try:
-        gym_member = models.GymMember.objects.get(pk=id)
-        context = {
-            'gymMember': gym_member
-        }
-        return render(request, 'rest_framework/api.html', context)
-    except models.GymMember.DoesNotExist:
-        return Response({'error': f'Gym member with ID {id} not found.'}, status=404)
+    if request.user.is_authenticated:
+        try:
+            gym_member = models.GymMember.objects.get(pk=id)
+            context = {
+                'gymMember': gym_member
+            }
+            return render(request, 'rest_framework/api.html', context)
+        except models.GymMember.DoesNotExist:
+            return Response({'error': f'Gym member with ID {id} not found.'}, status=404)
+    return render(request,'login.html')
+   
+
+def blockPlan(request,id):
+        if request.user.is_authenticated:
+            try:
+                plan=models.Plan.objects.filter(id=id).update(status=False)
+                messages.info(request,f"Plan with ID {id} is blocked ")
+                return redirect('plan')
+            except:
+                messages.info(request,f"Plan with ID {id} Does not Exist ")
+                return redirect('plan')
+        return render(request,'login.html')
+
+
+def unblockPlan(request,id):
+        if request.user.is_authenticated:
+            try:
+                plan=models.Plan.objects.filter(id=id).update(status=True)
+                messages.info(request,f"Plan with ID {id} is Unlocked ")
+                return redirect('plan')
+            except:
+                messages.info(request,f"Plan with ID {id} Does not Exist ")
+                return redirect('plan')
+        return render(request,'login.html')
+
+
+            
