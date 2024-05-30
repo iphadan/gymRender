@@ -319,13 +319,11 @@ def payment(request):
                     gymMember=models.GymMember.objects.filter(id=request.POST.get('id'))
                     plan=models.Plan.objects.get(pk=request.POST.get('plan'))
             
-                    if gymMember[0].expireDate < datetime.date.today():
+                    if gymMember[0].expireDate >= datetime.date.today():
                         expireDate = gymMember[0].expireDate + relativedelta(days=plan.period)
                     else:
                         expireDate = datetime.date.today() + relativedelta(days=plan.period)
-                    print(expireDate)
                     gymMember.update(expireDate = expireDate)
-                    print(gymMember[0].expireDate)
                     messages.info(request,'Expire Date updated')
                 except :
                         messages.error(request,'something went wrong, try again later')

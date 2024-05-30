@@ -48,9 +48,10 @@
                         <td>{{gymMember.expireDate}}</td>
                         <td>{{expire.1}}</td>
                         {% if expire.0 %}
-                        <td style="color: red;">Expired</td>
+                        <td><span class="badge bg-danger">Expired</span></td>
+
                         {% else  %}
-                        <td style="color: green;">Not Expired</td>
+                        <td><span class="badge bg-success">Not Expired</span></td>
                         {% endif %}
                         
                       </tr>
