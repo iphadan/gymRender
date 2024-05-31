@@ -5,6 +5,8 @@ from . import views
 
 
 urlpatterns = [
+path('',views.loginUser,name='login'),
+path('logout/',views.logoutUser,name='logout'),
 path('home/',views.home,name='home'),
 path('manageMembers/',views.manageMembers,name='manageMembers'),
 path('addNewMember/',views.addNewMembers,name='addNewMember'),
@@ -23,8 +25,7 @@ path('generateIdCard/',views.generateIdCard,name='generateIdCard'),
 path('reports/',views.reports,name='reports'),
 path('qr_code/', include('qr_code.urls', namespace="qr_code")),
 
-path('',views.loginUser,name='login'),
-path('logout/',views.logoutUser,name='logout'),
+
 
 
 

@@ -17,10 +17,15 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 # import qrcode
 
+
+
+
 # Create your views here.
 def loginUser(request):
+    print('login')
     if request.method == 'POST':
-       
+        print('Post')
+
         username = request.POST.get('username')
         password = request.POST.get('password')
         print(username,password)
@@ -32,6 +37,9 @@ def loginUser(request):
         else:
             messages.error(request,'username or password is incorrect')
             return render(request,'login.html')
+    elif request.user.is_authenticated :
+        return redirect('home')
+    print('second')
     return render(request,'login.html')
 def logoutUser(request):
     if request.user.is_authenticated :
