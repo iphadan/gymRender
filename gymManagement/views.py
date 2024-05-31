@@ -22,14 +22,10 @@ from rest_framework.response import Response
 
 # Create your views here.
 def loginUser(request):
-    print('login')
+  
     if request.method == 'POST':
-        print('Post')
-
         username = request.POST.get('username')
-        password = request.POST.get('password')
-        print(username,password)
-        
+        password = request.POST.get('password')        
         user = authenticate(username=username, password=password)
         if user:
             login(request,user)
@@ -39,8 +35,8 @@ def loginUser(request):
             return render(request,'login.html')
     elif request.user.is_authenticated :
         return redirect('home')
-    print('second')
     return render(request,'login.html')
+
 def logoutUser(request):
     if request.user.is_authenticated :
         logout(request)
@@ -81,7 +77,6 @@ def home(request):
         {
 
         }
-        print(request.user)
 
         return render(request,'index.html',context)
     messages.error(request,'login first')
@@ -134,7 +129,6 @@ def addNewMembers(request):
     return render(request,'login.html')
 
 def updateMember(request,id):
-    print(id)
     if request.user.is_authenticated:
         if request.method == 'POST':
             firstName=request.POST.get('firstName')
