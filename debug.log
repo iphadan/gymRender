@@ -15054,3 +15054,642 @@ File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\templates\scan
 File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\templates\updatePlan.html first seen with mtime 1717025701.3987482
 File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\templates\update_user.html first seen with mtime 1717055616.2892203
 File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\templates\rest_framework\api.html first seen with mtime 1716906096.0
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0002_alter_attendance_workouttime_alter_gymmember_paidat_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0011_alter_attendance_workoutdate_and_more.py first seen with mtime 1716896800.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\__init__.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1702902508.8429112
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1702902515.061223
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1702902515.047218
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\media_types.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\responders.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1702902515.1828034
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0010_alter_attendance_workoutdate_and_more.py first seen with mtime 1716712810.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1702902509.4799824
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1702902509.4820037
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0012_plan_status_alter_attendance_workoutdate_and_more.py first seen with mtime 1717024652.2035978
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\views\csrf.py first seen with mtime 1702902515.7153141
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\compress.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1702902508.8459313
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0007_alter_attendance_workouttime_alter_gymmember_paidat_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\middleware\common.py first seen with mtime 1702902515.4795558
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0009_gymmember_expiredate_alter_attendance_workoutdate_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0008_alter_attendance_workoutdate_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1702902508.8339038
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1702902508.8369105
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1702902515.049217
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gym\wsgi.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\string_utils.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1702902515.4775562
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0001_initial.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1702902506.9030252
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1702902508.8509195
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1702902513.1616168
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0003_alter_attendance_workouttime_alter_gymmember_paidat_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\__init__.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1702902506.9010258
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1702902508.8269093
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1702902508.8289087
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\middleware.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1702902513.9048014
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0006_plan_name_alter_attendance_workouttime_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0005_plan_period_alter_attendance_workouttime_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1702902509.4769702
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\storage.py first seen with mtime 1713946905.8820205
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1702902508.8479204
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1702902506.9050274
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1702902513.146623
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1702902513.9058008
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1702902515.051219
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1702902508.8229082
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1702902508.8249142
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1702902506.904024
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1702902508.8399112
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1702902511.8732648
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1702902514.64391
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1702902508.8309078
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gymManagement\migrations\0004_gymmember_gender_alter_attendance_workouttime_and_more.py first seen with mtime 1716712050.0
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1702902513.1652548
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1702902508.8529203
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\staticfiles\storage.py first seen with mtime 1702902514.579369
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\whitenoise\base.py first seen with mtime 1713946905.8820205
+"GET /logout/ HTTP/1.1" 200 5172
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1702902513.1556194
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1702902511.8922827
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1702902511.8892865
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\auth\context_processors.py first seen with mtime 1702902508.1172936
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context_processors.py first seen with mtime 1702902515.4955752
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\messages\context_processors.py first seen with mtime 1702902511.8702652
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1702902511.8948438
+"POST / HTTP/1.1" 200 5324
+"POST / HTTP/1.1" 302 0
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 6, 'revcounter0': 5, 'first': True, 'last': False}}, {'key': 'normal', 'entry': [0, <Plan: One Month 2000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 5, 'revcounter0': 4, 'first': False, 'last': False}}, {'key': 'Yellow', 'entry': [0, <Plan: Two Months 3000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 2, 'counter': 3, 'revcounter': 4, 'revcounter0': 3, 'first': False, 'last': False}}, {'key': 'Green', 'entry': [0, <Plan: Three Months 4000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 3, 'counter': 4, 'revcounter': 3, 'revcounter0': 2, 'first': False, 'last': False}}, {'key': 'Black', 'entry': [0, <Plan: Six Months 8000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 4, 'counter': 5, 'revcounter': 2, 'revcounter0': 1, 'first': False, 'last': False}}, {'key': 'Gold', 'entry': [0, <Plan: One Year 12000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8357BA0>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 5, 'counter': 6, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}}, {'key': 'Dimond', 'entry': [0, <Plan: Two Years 15000>, 0]}]
+"GET /home/ HTTP/1.1" 200 35408
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\conf\locale\en\__init__.py first seen with mtime 1702902505.3640554
+File C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\conf\locale\en\formats.py first seen with mtime 1702902505.3660643
+"GET /static/assets/vendor/bootstrap/css/bootstrap.min.css.f12f498b6e53.map HTTP/1.1" 200 68917
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 6, 'revcounter0': 5, 'first': True, 'last': False}}, {'key': 'normal', 'entry': [0, <Plan: One Month 2000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 5, 'revcounter0': 4, 'first': False, 'last': False}}, {'key': 'Yellow', 'entry': [0, <Plan: Two Months 3000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 2, 'counter': 3, 'revcounter': 4, 'revcounter0': 3, 'first': False, 'last': False}}, {'key': 'Green', 'entry': [0, <Plan: Three Months 4000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 3, 'counter': 4, 'revcounter': 3, 'revcounter0': 2, 'first': False, 'last': False}}, {'key': 'Black', 'entry': [0, <Plan: Six Months 8000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 4, 'counter': 5, 'revcounter': 2, 'revcounter0': 1, 'first': False, 'last': False}}, {'key': 'Gold', 'entry': [0, <Plan: One Year 12000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF2B60>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 5, 'counter': 6, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}}, {'key': 'Dimond', 'entry': [0, <Plan: Two Years 15000>, 0]}]
+"GET /home/ HTTP/1.1" 200 35408
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 0, 'counter': 1, 'revcounter': 6, 'revcounter0': 5, 'first': True, 'last': False}}, {'key': 'normal', 'entry': [0, <Plan: One Month 2000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 1, 'counter': 2, 'revcounter': 5, 'revcounter0': 4, 'first': False, 'last': False}}, {'key': 'Yellow', 'entry': [0, <Plan: Two Months 3000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 2, 'counter': 3, 'revcounter': 4, 'revcounter0': 3, 'first': False, 'last': False}}, {'key': 'Green', 'entry': [0, <Plan: Three Months 4000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 3, 'counter': 4, 'revcounter': 3, 'revcounter0': 2, 'first': False, 'last': False}}, {'key': 'Black', 'entry': [0, <Plan: Six Months 8000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 4, 'counter': 5, 'revcounter': 2, 'revcounter0': 1, 'first': False, 'last': False}}, {'key': 'Gold', 'entry': [0, <Plan: One Year 12000>, 0]}]
+Exception while resolving variable 'plan' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+                                            ^^^^^^^^
+AttributeError: type object 'RequestContext' has no attribute 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'plan'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ephremd\AppData\Local\Programs\Python\Python311\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [plan] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x000001B2C8CF1800>>, 'request': <WSGIRequest: GET '/home/'>, 'user': <SimpleLazyObject: <User: yenegym>>, 'perms': PermWrapper(<SimpleLazyObject: <User: yenegym>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/home/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'newGymMembers': 0, 'gymMembers': 25, 'thisMonthGymMembers': <QuerySet [<GymMember: kaleab Kibru>, <GymMember: Meselech Gobena>, <GymMember: Jalud Kebebew>, <GymMember: Yordanos Zelalem>, <GymMember: Roba Getu>, <GymMember: Ashenafi Abrham>, <GymMember: Mehiret Seifu>, <GymMember: Birhan Asnake>, <GymMember: Mesfin Tasew>, <GymMember: Nahom Mesfine>, <GymMember: Fasika Alemu>, <GymMember: Efrem Yohanis>, <GymMember: Tesfaye Bizuneh>, <GymMember: Zelalem Bizuneh>, <GymMember: Sosna Abreham>, <GymMember: Helen Abebe>, <GymMember: Yonas Assefa>, <GymMember: Sifen daniel>, <GymMember: Hawi Tilahun>, <GymMember: Betelhem Kinfe>, '...(remaining elements truncated)...']>, 'thisMonthRevenue': 89000, 'planRevenue': {'normal': [0, <Plan: One Month 2000>, 0], 'Yellow': [0, <Plan: Two Months 3000>, 0], 'Green': [0, <Plan: Three Months 4000>, 0], 'Black': [0, <Plan: Six Months 8000>, 0], 'Gold': [0, <Plan: One Year 12000>, 0], 'Dimond': [0, <Plan: Two Years 15000>, 0]}, 'plans': <QuerySet [<Plan: One Month 2000>, <Plan: Two Months 3000>, <Plan: Three Months 4000>, <Plan: Six Months 8000>, <Plan: One Year 12000>, <Plan: Two Years 15000>]>}, {'block': <Block Node: content. Contents: [<TextNode: '\n\n  <main id="main" class'>, <Variable Node: newGymMembers>, <TextNode: '</h6>\n                   '>, <Variable Node: thisMonthRevenue>, <TextNode: '</h6>\n                   '>, <Variable Node: gymMembers>, <TextNode: '</h6>\n                   '>, <ForNode: for key, entry in planRevenue.items, tail_len: 3>, <TextNode: '\n            <div class="'>, <ForNode: for thisMontGymMember in thisMonthGymMembers, tail_len: 13>, <TextNode: '\n                      \n '>]>}, {'forloop': {'parentloop': {}, 'counter0': 5, 'counter': 6, 'revcounter': 1, 'revcounter0': 0, 'first': False, 'last': True}}, {'key': 'Dimond', 'entry': [0, <Plan: Two Years 15000>, 0]}]
+"GET /home/ HTTP/1.1" 200 35408
+"GET /payment/ HTTP/1.1" 200 14673
+File C:\Users\ephremd\Downloads\gymRender\gymRender\gym\settings.py previous mtime: 1717143827.9841404, current mtime: 1717151511.460083
+C:\Users\ephremd\Downloads\gymRender\gymRender\gym\settings.py notified as changed. Signal results: [(<function template_changed at 0x000001B2C5222CA0>, None), (<function translation_file_changed at 0x000001B2C6413C40>, None)].
+C:\Users\ephremd\Downloads\gymRender\gymRender\gym\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
