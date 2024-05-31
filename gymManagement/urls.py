@@ -1,5 +1,7 @@
 
 from django.urls import path,include
+from django.conf.urls.static import static
+from gym import settings
 from . import views
 # from .views import ScannerView
 
@@ -45,3 +47,7 @@ path('unblockPlan/<int:id>/', views.unblockPlan,name='unblockPlan'),
 
 
 ]
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+else:
+    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

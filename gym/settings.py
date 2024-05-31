@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG','False').lower() == 'true'
-#DEBUG = False
+#DEBUG = True
 ALLOWED_HOSTS = ['gymrender.onrender.com','localhost','127.0.0.1']
 
 
@@ -160,7 +160,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT=BASE_DIR/'media/'
+MEDIA_ROOT=BASE_DIR / 'media/'
 
 
 # Default primary key field type
