@@ -7,7 +7,6 @@
     <script src="https://unpkg.com/html5-qrcode"></script>
 </head>
 <body>
-
     <div class="card-body">
         <div class="d-flex align-items-center" id="my-qr-reader"></div>
         <p id="message"></p>
@@ -20,10 +19,9 @@
                 const idRegex = /ID:\s*#\s*(\d+)/;
                 const match = decodeText.match(idRegex);
                const id = match[1];
-                if (confirm(`QR code content: ${id}. Do you want to proceed?`)) {
+                if (confirm(` ${decodeText}. \n\nDo you want to proceed?`)) {
                     // User confirmed, do something with the decodeText
-                    window.location.replace(`http://127.0.0.1:7000/qrScanner/${id}`)
-
+                    window.location.replace(`https://gypsystem.onrender.com/qrScanner/${id}`)
 
                     //document.getElementById('message').textContent = `QR code content: ${decodeText}`;
                 } else {
@@ -39,7 +37,6 @@
 
             htmlScanner.render(onScanSuccess);
         });
-
     </script>
 </body>
 </html>

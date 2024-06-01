@@ -15,6 +15,7 @@ import qrcode
 from . import models
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import requests
 # import qrcode
 
 
@@ -22,7 +23,6 @@ from rest_framework.response import Response
 
 # Create your views here.
 def loginUser(request):
-  
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')        
@@ -440,6 +440,24 @@ def qrScanner(request, id):
             return Response({'error': f'Gym member with ID {id} not found.'}, status=404)
     return render(request,'login.html')
    
+#ephremNewTouch
+
+
+@api_view(['GET'])
+def qrScanner(request, id):
+    try:
+        gym_member = models.GymMember.objects.get(pk=id)
+        context = {
+            'gymMember': gym_member
+        }
+        return render(request, 'rest_framework/api.html', context)
+    except models.GymMember.DoesNotExist:
+        return Response({'error': f'Gym member with ID {id} not found.'}, status=404)
+
+
+
+
+
 
 def blockPlan(request,id):
         if request.user.is_authenticated:
@@ -463,6 +481,59 @@ def unblockPlan(request,id):
                 messages.info(request,f"Plan with ID {id} Does not Exist ")
                 return redirect('plan')
         return render(request,'login.html')
+
+
+
+def send_message(request):
+    # api= 'https://api.afromessage.com/api/send?from={IDENTIFIER_ID}&sender={YOUR_SENDER_NAME}&to={YOUR_RECIPIENT}&message={YOUR_MESSAGE}&callback={YOUR_CALLBACK}'
+    if request.user.is_authenticated:
+            try:
+                # print('1')
+                # all_customer = models.GymMember.objects.all()
+                # context = {'all_customer':all_customer}
+                #phone
+                # we use requests library for the samples
+    
+                # session object
+                session = requests.Session()
+                print(session)
+                # base url
+                base_url = 'https://api.afromessage.com/api/send'
+                # api token
+                token = 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGlmaWVyIjoiOXExMWpVQ0lFTTJjVzBEdmRyZ3p5aE5Za3FKd0dabXIiLCJleHAiOjE4NzUwMTQyNDcsImlhdCI6MTcxNzI0Nzg0NywianRpIjoiZmZiZjdlMTAtZThjYy00M2EzLWI3OTUtNjAxYjA5Y2Q2YjgzIn0.lGSE16YQ4Wy2Z834IeeObuO2VU6lEph_1GK2iCUrikw'
+                # header
+                headers = {'Authorization': 'Bearer ' + token, "Content-Type" : "application/json"}               
+                 # request body
+                body = {
+                        'from':'e80ad9d8-adf3-463f-80f4-7c4b39f7f164',
+                        'sender':'',
+                        'to': '0923105778',
+                        'message': 'Hello Efrem'}
+                # make request
+                result = session.post(base_url, json=body, headers=headers)
+                print('result=>>',result)
+                if result.status_code == 200:
+                    # request is success. inspect the json object for the value of `acknowledge`
+                    json = result.json()
+                    if json['acknowledge'] == 'success':
+                        # do success
+                        print('api success')
+                    else:
+                        # do failure
+                        print('api error')
+                else:
+                    # anything other than 200 goes here.
+                    print('http error ... code: %d , msg: %s ' % (result.status_code, result.content))
+                    context={
+                        'result':result.content
+                    }
+
+                return render(request,"test.html",context)
+            except:
+                messages.info(request,f"Plan with ID {id} Does not Exist ")
+                return redirect('plan')
+    return render(request,'login.html')
+
 
 
             

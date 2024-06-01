@@ -1,13 +1,11 @@
 {% extends 'base.html'%}
 {% load static %}
 {% block content %}
-
-
-  <main id="main" class="main">
+<main id="main" class="main">
     <a href="{% url 'home' %}">Home</a> / Plans
     <div class="pagetitle">
       <h1>Plan</h1>
-      
+    
     </div><!-- End Page Title -->
     {% for message in messages %}
       

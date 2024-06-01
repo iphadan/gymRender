@@ -39,7 +39,7 @@ path('unblockPlan/<int:id>/', views.unblockPlan,name='unblockPlan'),
 
 
 
-
+path('send_message/', views.send_message,name='send_message'),
 
 
 
