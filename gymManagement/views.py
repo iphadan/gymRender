@@ -536,4 +536,5 @@ def send_message(request):
 
 
 
-            
+def error_404(request,exception):
+    return render(request,"rest_framework/404.html")
